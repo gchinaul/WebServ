@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulaire</title>
+    <style>
+        body { font-family: Arial; margin: 50px; }
+        input { padding: 10px; margin: 5px; width: 200px; }
+        button { padding: 10px 20px; background: #4CAF50; color: white; border: none; }
+    </style>
+</head>
+<body>
+    <h1>Formulaire</h1>
+    <form action="/upload/form-submit" method="POST">
+        <p>Prénom: <input type="text" name="prenom" required></p>
+        <p>Nom: <input type="text" name="nom" required></p>
+        <p>Email: <input type="email" name="email"></p>
+        <p>Âge: <input type="text" name="age"></p>
+        <button type="submit">Envoyer</button>
+    </form>
+    <p><a href="/">← Retour</a></p>
+</body>
+</html>

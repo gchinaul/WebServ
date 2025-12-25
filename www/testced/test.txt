@@ -1,0 +1,15 @@
+cedric
+
+Telnet REquest GET:
+
+GET / HTTP/1.1
+Host: localhost
+
+Telnet REquest POST:
+
+POST /testced HTTP/1.1
+Host: localhost
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 5
+
+hello

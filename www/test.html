@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Webserv</title>
+</head>
+<body>
+    <h1>🚀 Webserv HTTP Server</h1>
+    <p>Serveur HTTP fonctionnel !</p>
+    
+    <h2>Tests disponibles :</h2>
+    <ul>
+        <li><a href="/">Index principal</a></li>
+        <li><a href="/upload/">Dossier upload</a></li>
+        <li><a href="/upload/form.html">Formulaire upload</a></li>
+        <li><a href="/delete/">Dossier delete</a></li>
+        <li><a href="/cgi/">Scripts CGI</a></li>
+    </ul>
+    
+    <h2>Tests POST :</h2>
+    <form method="POST" action="/upload/">
+        <label>Nom :</label>
+        <input type="text" name="nom" value="test"><br><br>
+        <label>Message :</label>
+        <textarea name="message">Bonjour Webserv!</textarea><br><br>
+        <input type="submit" value="Envoyer">
+    </form>
+</body>
+</html>
