@@ -58,7 +58,7 @@ make
 
 ## Auteur
 
-Projet réalisé par [gchinaul](https://github.com/gchinaul) dans le cadre de l'école 42.
+Projet réalisé par [gchinaul](https://github.com/gchinaul) et [mmalie](https://github.com/jack-pepper) dans le cadre de l'école 42.
 
 ## Licence
 
